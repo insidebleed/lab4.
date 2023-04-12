@@ -1,0 +1,165 @@
+ {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: #312F2F;
+	display: flex;
+	align-items: center;
+}
+
+
+nav {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	padding-right: 100px;
+}
+ img {
+ 	width: 100px;
+ 	height: 100px;
+
+ }
+
+ ul {
+ 	width: 60%;
+ 	display: flex;
+ 	list-style: none;
+ 	justify-content:space-around ;
+ }
+
+ li {
+ 	font-family: Garamond, serif;
+ 	font-size:27pt ;
+ 	padding-top: 12px;
+ 	justify-self: center;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+
+ main {
+ 	width: 100%;
+ 	height: 100vh;
+ 	background-color: whitesmoke;
+ 	background-image: url(homepage.jpeg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ }
+
+ .connect {
+	height: 400px;
+	width: 500px;
+	background-color: white;
+	position: absolute;
+	top:320px;
+	left: 1200px;
+	border-radius: 7%;
+	opacity: 60%;
+	padding-left: 20px;
+}
+
+.connect>p {
+	font-size: 70pt;
+	font-family: Garamond, serif;
+	font-weight: 1200;
+
+}
+
+button {
+	width: 200px;
+	height: 60px;
+	margin: 5px;
+	font-family: Garamond, serif;
+	font-size:30pt ;
+
+}
+
+#btn1, #btn2 
+{
+	border-radius: 7px;
+	border-style: solid; 
+	background-color: #DFE4E8;
+	color: #312F2F;
+	font-size: 20pt;
+	justify-content: center;
+}
+
+#btn1:hover
+{
+	background-color: darkgray;
+	box-shadow: 3px 3px 3px 3px ##8B0000;
+}
+#btn2:hover
+{
+	background-color: darkgray;
+	box-shadow: 3px 3px 3px 3px #8B0000;
+}
+
+.services {
+	height: 100vh;
+	background-color: #312F2F;
+}
+
+
+.projects {
+	height: 100vh;
+	background-color: #312F2F;
+}
+
+footer {
+	height: 150px;
+	background-color: #312F2F;
+}
+.text
+{
+	color: 	#8B0000;
+}
+.buttonCase
+{
+	color: #8B0000 ;
+	margin-top: 15px;
+}
+.logo
+{
+	color: #8B0000;
+}
+.block 
+{
+	height: 250px;
+	border-radius: 15px;
+	background-color: white;
+	display: flex;
+	justify-self: center;
+}
+.services 
+{
+	height: 100vh;
+	background-color: #312F2F;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-row-gap: 15px;
+	grid-column-gap: 5%;
+	justify-content: center;
+	margin: 0 auto;
+	padding-top: 130px;
+	font-family: Garamond, serif;
+}
+.services img {
+	height: 250px;
+	width: 250px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius:15px ;
+}
